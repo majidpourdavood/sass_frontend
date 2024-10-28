@@ -1,0 +1,28 @@
+.sidebar.toggled #sidebarToggle::after {
+    content: unset;
+}
+
+.sidebar #sidebarToggle::after {
+    content: unset;
+}
+
+.sidebar #sidebarToggle::before {
+    content: unset;
+}
+
+.topbar #sidebarToggleTop {
+    background-color: #eaecf4;
+}
+
+@media (min-width: 768px){
+    .sidebar .nav-item .nav-link {
+        padding: 0.25rem 1rem;
+    }
+}
+
+
+@media (min-width: 768px){
+    .sidebar .nav-item .nav-link {
+        padding: 0.5rem 1rem;
+    }
+}

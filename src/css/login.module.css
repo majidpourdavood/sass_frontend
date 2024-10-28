@@ -1,0 +1,118 @@
+
+
+.background_login_register {
+  position: relative;
+  background-size: 100%, 100%;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to right, #e5e5f7, #bdc2d9);
+}
+
+
+/*html,body{*/
+/*  background-color: #d3e6ff;*/
+/*  height: 100%;*/
+/*}*/
+
+.content_login_register {
+  background-size: 100%, 100%;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to right, #e5e5f7, #bdc2d9);
+}
+
+.login_register_page{
+  padding: 4rem 0;
+
+}
+.login_register_page .title_login_register_page {
+  background: transparent;
+  padding: 1rem;
+  color: #1d4171;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.15rem;
+}
+
+.login_register_page .card_body {
+  padding: 0;
+}
+
+.login_register_page .card {
+  border: 0;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 6px #c1c1c1;
+  max-width: 26rem;
+  margin: auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+.form_login_register {
+  padding: 1rem 2rem;
+  height: 100%;
+}
+
+.login_register_page .form_control {
+  padding: .6rem 2.7rem;
+  border-radius: 2rem;
+  color: #33582d;
+  height: auto;
+}
+
+
+
+.login_register_page .form_group {
+  margin-bottom: 1rem !important;
+}
+
+ .btn_login_register {
+  width: 100%;
+  text-align: center;
+  background-color: #345fa2;
+  color: #fff;
+  margin: 1rem 0;
+  border-radius: 2rem;
+}
+
+.custom_control {
+  font-size: .9rem;
+  cursor: pointer;
+}
+
+
+.custom-control-input:checked ~ .custom-control-label::before {
+  color: #fff;
+  border-color: #345fa2;
+  background-color: #345fa2;
+}
+
+
+
+.login_register_page .logo_login_register {
+  margin-top: 2rem;
+}
+
+
+
+.login_register_page svg {
+  position: absolute;
+  left: 1.5rem;
+  top: 0.7rem;
+  color: #345fa2;
+}
+
+.parent-checkbox-login{
+  text-align: left;
+  padding: 0 0.5rem;
+}
+
+.font_login{
+  color: #345fa2;
+  position: absolute;
+  left: 0;
+/* font-size: 1rem !important; */
+  width: 1.25rem;
+  top: 0;
+}
+

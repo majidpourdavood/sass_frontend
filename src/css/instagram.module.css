@@ -1,0 +1,21 @@
+
+ .form_control {
+  color: #33582d;
+  height: auto;
+}
+
+ .form_group {
+  margin-bottom: 1rem !important;
+}
+
+ .btn_join_us {
+  background-image: linear-gradient(-300deg, #2E067E 20%, #A940EC 100%);
+  color: #fff !important;
+  box-shadow: 3px 5px 14px 0px rgb(169 64 236 / 60%);
+  border-radius: .5rem !important;
+  min-width: 9rem;
+  text-align: center;
+  padding: 0.5rem !important;
+  border: 0 !important;
+  display: inline-block;
+ }
