@@ -56,9 +56,6 @@ const Login = (props) => {
         dispatch(loginUser(data));
     }
 
-    // @ts-ignore
-    // @ts-ignore
-    // @ts-ignore
     return (
 
 
@@ -77,10 +74,10 @@ const Login = (props) => {
                 >
                     <div className="col-md-8">
                         <div
-                            className={"card " + styles.card}
+                            className={"card card-index-page " + styles.card}
                         >
                             <div
-                                className={"card-body max-width-index" + styles.card_body}
+                                className={"card-body card-index-page " + styles.card_body}
                             >
                                 <div className="row justify-content-center">
                                     <Link href="/">

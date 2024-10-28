@@ -95,8 +95,8 @@ function Deliveries(props) {
                                     <tr>
                                         <th>row</th>
                                         <th>name</th>
-                                        <th>roles</th>
                                         <th>capacity</th>
+                                        <th>setting</th>
                                     </tr>
                                     </thead>
 

@@ -595,8 +595,9 @@ html , #__next, main{
     font-size: 1.2rem;
 }
 
-.max-width-index{
-    max-width: 35rem !important;
+.card-index-page{
+    max-width: 40rem !important;
+    padding-bottom: 3rem;
 }
 
 body, html{

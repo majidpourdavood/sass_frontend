@@ -24,7 +24,7 @@ function Users(props) {
         if (props.users && props.users.status == "success") {
 
         }
-console.log(props.users);
+        console.log(props.users);
 
     }, []);
 
@@ -43,7 +43,7 @@ console.log(props.users);
             }
         )
             .then(res => {
-                if (res.data.status && res.data.status == "success" ) {
+                if (res.data.status && res.data.status == "success") {
                     message = res.data.message;
                     toast.success(message, {
                         position: 'top-right',
@@ -114,13 +114,16 @@ console.log(props.users);
                                         return (
 
                                             <tr key={key + 1}>
-                                                <td>{ key  + 1}</td>
+                                                <td>{key + 1}</td>
                                                 <td>{user.username}</td>
                                                 <td>
                                                     {user.roles.map((role, key) => {
                                                         return (
                                                             <>
                                                                 {role}
+                                                                <span className="font-weight-bold text-info">
+                                                                           {key + 1 == user.roles.length ? "" : " || "}
+                                                                </span>
                                                             </>
                                                         )
                                                     })}
